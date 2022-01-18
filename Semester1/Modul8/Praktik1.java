@@ -20,5 +20,6 @@ public class Praktik1 {
             }
         }
         System.out.println("Melakukan Print sebanyak " +jumlah+ " kali");
+        in.close();
     }
 }
