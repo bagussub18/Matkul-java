@@ -4,14 +4,14 @@ import java.util.Scanner;
 public class Tugas {
     public static void main(String[] args) {
         Scanner tug = new Scanner(System.in);
-
-        System.out.println("----- S1 | D3----- ");
+        System.out.println("---- S1 ----  |  ---- D3 ----");
+        System.out.println("  IF | SI     |  TK | KA | MI");
+        System.out.println("-----------------------------");
         System.out.print("Masukan Jenjang: ");
         String jenjang = tug.nextLine();
-        System.out.println("S1 : IF | SI");
-        System.out.println("D3 : TK | KA | MI");
         System.out.print("Pilih Jurusan: ");
         String jurusan = tug.nextLine();
+        System.out.println("--------------------------------");
         switch (jenjang) {
             case "S1":
                 switch (jurusan) {
