@@ -29,5 +29,6 @@ public class Praktik2 {
             }
             System.out.println();
         }
+        in.close();
     }
 }

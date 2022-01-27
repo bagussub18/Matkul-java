@@ -30,6 +30,7 @@ public class Latihan1 {
             System.out.print("Mahasiswa "+(a+1));
             for (int b = 0; b < 3; b++) {
                 System.out.print("\t"+nilai[a][b]+"");
+                System.out.print("ini niliai b"+nilai[b]);
                 if (b == 2) {
                     System.out.print("\t"+rerata[a]);
                 }
